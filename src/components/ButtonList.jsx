@@ -14,12 +14,18 @@ const ButtonList = () => {
     "Bihar",
     "India",
     "POK",
-    // "Mixes",
+    "Mixes",
+    "Web Series",
+    "Movies",
+    "Bihar",
+    "India",
+    "POK",
+    "Mixes",
     "Web Series"
   ];
 
   return (
-    <div className="flex">
+    <div className="flex overflow-x-auto whitespace-nowrap px-4 space-x-2">
       {list.map((buttonName, index) => (
         <Button key={index} name={buttonName} />
       ))}
