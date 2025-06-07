@@ -2,7 +2,6 @@ import Comment from "./Comment";
 import {commentsData} from "../utils/commentsData";
 
 const CommentsList = ({ comments }) => {
-  console.log(comments);
   return comments.map((comment, index) => (
     <div key={index}>
       <Comment data={comment} />

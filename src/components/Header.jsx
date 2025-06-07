@@ -75,7 +75,7 @@ const Header = () => {
           <div className="absolute top-[3.5rem] bg-white px-5 shadow-lg rounded-lg w-[43rem]">
             <ul>
               {searchValue.map((value) => (
-                <li key={value} className="hover:bg-gray-200 p-2 rounded-lg">
+                <li key={value} className="hover:bg-gray-200 cursor-pointer p-2 rounded-lg">
                   {value}
                 </li>
               ))}
